@@ -47,17 +47,4 @@ public class KeysAndRooms_Hzj_841 {
         return mySet.size() == rooms.size();
     }
 
-    public boolean binarySearch(List<Integer> room, int key, int left, int right){
-        if(left>right){
-            return false;
-        }
-        int mid = (left + right)/2;
-        if(room.get(mid) == key){
-            return true;
-        }else if(room.get(mid) < key){
-            return binarySearch(room, key, mid+1, right);
-        }else {
-            return binarySearch(room, key, left, mid-1);
-        }
-    }
 }
