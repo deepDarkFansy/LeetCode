@@ -1,4 +1,4 @@
-package com.dlut.hzj.Leetcode;
+package com.dlut.hzj.Leetcode.LeetCode.TT_841;
 
 import javax.swing.*;
 import java.util.ArrayList;
